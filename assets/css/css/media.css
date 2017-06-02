@@ -1,0 +1,128 @@
+@media (max-width: 1200px) {
+  .menu-top-fix .menu-fixo .menu-fixo-item .link-menu-fixo {
+    color: white;
+    padding-right: 0;
+  }
+}
+@media (max-width: 990px) {
+  .menu-top-fix {
+    top: -265px;
+  }
+  .header-form-necessidade small {
+    display: block !important;
+    margin-top: 25px;
+  }
+  .menu-wrapper {
+    position: fixed;
+    width: 0;
+    z-index: 20;
+  }
+  .material-menu {
+    position: relative;
+    width: 0;
+    height: 100%;
+    background: transparent;
+    z-index: 2;
+    position: fixed;
+  }
+  .material-menu-full {
+    position: fixed;
+    width: 100vw;
+  }
+  .section-form-necessidade .container .form-necessidade .col-md-6 {
+    padding-left: 0 !important;
+    margin-top: 0px;
+  }
+  #header_site .container .title-site {
+    font-size: 6rem;
+  }
+  #header_site .container .slogan-home {
+    font-weight: 300;
+    width: 85%;
+    margin: 10px auto;
+    font-size: 2rem;
+  }
+  #header_site .container {
+    padding-top: 40%;
+  }
+  .section-below-header {
+    background-color: #323232;
+    padding: 40px 10px;
+    color: white;
+    font-size: 2rem;
+  }
+  .col-md-4.servico-item-wrapper {
+    padding: 0;
+  }
+  .section-nossos-servicos .container .servicos-grid-home .servico-item-wrapper .grid-servicos-item {
+    margin: 35px 0;
+  }
+  .section-about-mobile {
+    height: auto;
+    padding-bottom: 83px;
+  }
+  .section-about-mobile .container .wrapper-right-side {
+    padding: 25px;
+  }
+  .section-form-necessidade .container .form-necessidade .select-item-form-necessidade {
+    width: 100%;
+    padding: 10px;
+    height: 80px !important;
+    margin: 10px auto;
+    border: 1px solid white;
+  }
+  .section-form-necessidade .container .form-necessidade #mensagem {
+    min-height: 300px;
+    width: 95%;
+  }
+  .section-form-necessidade .container .form-necessidade .btn-submit-inscricao {
+    width: 100%;
+    float: none;
+    margin: 20px auto;
+  }
+  .resultados-pre-footer .container .results-header {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 2.2rem;
+    padding: 37px;
+    text-align: justify;
+  }
+  .faca-parte-time {
+    width: 80% !important;
+    font-size: 2rem !important;
+  }
+  #footer_site * {
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+  }
+  .section-form-necessidade-interna .container .form-necessidade #mensagem {
+    min-height: 300px;
+    width: 95%;
+  }
+}
+@media (max-width: 768px) {
+  .material-content nav {
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    padding: 15%;
+    right: 0;
+    color: white;
+  }
+  .material-content a {
+    font-size: 3rem;
+    color: tomato;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+}
+@media (max-width: 600px) {
+  .material-btn {
+    top: -5px;
+    position: fixed;
+    right: -5px !important;
+    float: right;
+    margin-right: 0;
+  }
+}
